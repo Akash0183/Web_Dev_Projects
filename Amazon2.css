@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.todays-deals{
+    height:45vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin-top: 750px;
+}
+
+.heading-todays-deals{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 25px;
+}
+
+.see-all-deals{
+    padding-left: 180px;
+    margin-top: -20px;
+}
+
+.see-all-deals a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.see-all-deals a:hover{
+    color: red;
+}
+
+.todays-deals-card{
+    height: 35vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.gamimg-laptops{
+    height: 33vh;
+    width: 17vw;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.gamimg-laptops img{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.offer{
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #CC0C39;
+    color: white;
+}
+
+.deal-of-the-day{
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.gamimg-laptops p{
+    word-spacing: 0.043em;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.handpicked-laptops{
+    height: 33vh;
+    width: 17vw;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.handpicked-laptops img{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.offer-handpicked-laptops{
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #CC0C39;
+    color: white;
+}
+
+.deal-of-the-day-handpicked-laptops{
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.handpicked-laptops p{
+    word-spacing: 0.043em;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.branded-suitcase{
+    height: 33vh;
+    width: 17vw;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.branded-suitcase img{
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.offer-branded-suitcase{
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #CC0C39;
+    color: white;
+}
+
+.branded-suitcase p{
+    word-spacing: 0.043em;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.deal-of-the-day-branded-suitcase{
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.ptron-deals{
+    height: 33vh;
+    width: 17vw;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.ptron-deals img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.offer-ptron-deals{
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #CC0C39;
+    color: white;
+}
+
+.deal-of-the-day-ptron-deals{
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.ptron-deals p{
+    word-spacing: 0.043em;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.S-20-FE{
+    height: 33vh;
+    width: 17vw;
+    border: 2px solid black;
+    margin-left: 25px;
+}
+
+.S-20-FE img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.offer-S-20-FE{
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #CC0C39;
+    color: white;
+}
+
+.deal-timer-S-20-FE{
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.S-20-FE p{
+    word-spacing: 0.043em;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.frequently-repurchased{
+    height:45vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.heading-frequently-repurchased{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 25px;
+}
+
+.img-card-frequently-repurchased{
+    height: 35vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.img-card-frequently-repurchased img{
+    padding-left: 15px;
+}
+
+.advert-Home-Furnishings{
+    padding: 25px;
+    padding-left: 290px;
+}

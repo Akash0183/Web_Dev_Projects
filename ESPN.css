@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b2c2d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: #d00;
+    margin-left: 111px;
+    margin-right: 5px;
+    display: inline;
+    padding: 18px;
+    transform: skewX(-17deg);
+    padding-top: 8px;
+}
+
+.logo img {
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.advert {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.card {
+    height: 72vh;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 45vw;
+    margin-top: 20px;
+    margin-left: 393px;
+}
+
+.live {
+    padding: 10px;
+    padding-left: 10px;
+    padding-left: 13px;
+    font-size: 15px;
+    color: red;
+    font-weight: 600;
+}
+
+.game {
+    padding-left: 13px;
+    margin-top: -8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.MI {
+    padding-left: 13px;
+    margin-left: 30px;
+    margin-top: -35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.MI-Score {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 635px;
+    margin-top: -25px;
+}
+
+.csk-logo {
+    margin-top: 10px;
+}
+
+.CSK {
+    padding-left: 13px;
+    margin-left: 33px;
+    margin-top: -35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.CSK-Score {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 467px;
+    margin-top: -25px;
+}
+
+.result {
+    padding-left: 13px;
+    padding-top: 13px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.match-img {
+    height: 40vh;
+    width: 42vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.match-img img {
+    height: 33vh;
+    width: 42vw;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.headline h3 {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.headline a {
+    text-decoration: none;
+}
+
+.headline h3:hover {
+    color: rgb(18, 50, 237);
+    cursor: pointer;
+}
+
+.time {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}
+
+.Summary {
+    height: 25px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 130px;
+    border: 2px solid rgb(18, 50, 237);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Summary p {
+    padding-top: 5px;
+    padding-left: 69px;
+    font-size: 12px;
+    color: blue;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.Scorecard {
+    height: 27px;
+    width: 200px;
+    margin-top: -29px;
+    margin-left: 350px;
+    border: 2px solid rgb(18, 50, 237);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Scorecard p {
+    padding-top: 6px;
+    padding-left: 65px;
+    font-size: 12px;
+    color: blue;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.Top-Headlines-card {
+    height: 45vh;
+    width: 18vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-left: 27px;
+    margin-bottom: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.Top-Headlines-card h5 {
+    padding-top: 10px;
+    padding-left: 13px;
+    font-weight: 900;
+}
+
+.headlines ul li {
+    list-style: circle;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.headlines ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.advert2 {
+    height: 35vh;
+    width: 18vw;
+    border: 2px solid grey;
+    margin-left: 1120px;
+    margin-top: -960px;
+}
+
+.advert2 img {
+    height: 35vh;
+    width: 18vw;
+}
+
+.news-card {
+    height: 169vh;
+    width: 18vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-left: 1120px;
+    margin-top: 20px;
+}
+
+.news-card img {
+    height: 18vh;
+    width: 16vw;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.heading {
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading :hover {
+    cursor: pointer;
+}
+
+.sub-heading {
+    padding-left: 15px;
+    font-size: 13px;
+    margin-top: 2px;
+    color: grey;
+}
+
+.news-card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.terms-of-use {
+    height: 22vh;
+    width: 18vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-left: 1122px;
+    margin-bottom: 200px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.terms-of-use p {
+    padding-top: 7px;
+    padding-left: 10px;
+    color: black;
+}
+
+.terms-of-use p:hover {
+    color: blue;
+}
+
+.sub-heading-tou {
+    font-size: 13px;
+    color: rgb(206, 183, 183);
+    margin-top: 10px;
+}
+
+.Lakers-GSW {
+    height: 65vh;
+    width: 45vw;
+    border: 2px solid grey;
+    margin-top: 575px;
+    margin-left: -694px;
+    border-radius: 8px;
+}
+
+.head-game {
+    height: 20px;
+    width: 490px;
+    padding-left: 200px;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.GSW-Score p {
+    padding-top: 23px;
+    padding-left: 90px;
+    font-size: 18px;
+}
+
+.trail {
+    margin-top: -22px;
+}
+
+.gsw-logo {
+    padding-left: 168px;
+    margin-top: -40px;
+}
+
+.gsw-sc {
+    margin-top: -68px;
+}
+
+.lakers-sc {
+    margin-top: -27px;
+}
+
+.Lakers-Score p {
+    padding-top: 23px;
+    font-size: 18px;
+    padding-left: 560px;
+    margin-top: -78px;
+}
+
+.lakers-logo {
+    margin-top: -41px;
+    padding-left: 470px;
+}
+
+.game-img {
+    height: 38vh;
+    width: 43vw;
+    border: 2px solid grey;
+    margin-top: 30px;
+    margin-left: 13px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.game-img img {
+    height: 30vh;
+    width: 43vw;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.game-headline {
+    font-family: 'Poppins', sans-serif;
+}
+
+.game-headline a {
+    text-decoration: none;
+    color: black;
+}
+
+.gamecast {
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 143px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gamecast:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.gamecast a {
+    text-decoration: none;
+}
+
+.boxscore {
+    height: 40px;
+    width: 90px;
+    margin-top: -60px;
+    margin-left: 380px;
+    padding-top: 15px;
+    padding-left: 27px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxscore :hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.boxscore a {
+    text-decoration: none;
+}
+
+.jokic-vid {
+    height: 70vh;
+    width: 45vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-left: 394px;
+    margin-top: -1210px;
+}
+
+.video-jokic{
+    height: 60vh;
+    border: 2px solid grey;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.video-jokic h3{
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+.video-jokic h3:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.video-jokic p{
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size: 13px;
+    color: grey;
+}
+
+.gamecast-2{
+    height: 20px;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 133px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gamecast-2 p{
+    font-size: 13px;
+    padding-left: 40px;
+    margin-top: -5px;
+    color: blue;
+}
+
+.gamecast-2 a{
+    text-decoration: none;
+}
+
+.boxscore-2{
+    height: 20px;
+    width: 163px;
+    margin-top: -38px;
+    margin-left: 360px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxscore-2 p{
+    font-size: 13px;
+    padding-left: 40px;
+    margin-top: -5px;
+    color: blue;
+}
+
+.boxscore-2 a{
+    text-decoration: none;
+}
+
+.customise {
+    height: 130px;
+    width: 190px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-top: -1040px;
+    margin-left: 180px;
+}
+
+.customise h4 {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.sign-up {
+    height: 25px;
+    width: 160px;
+    border: 2px solid grey;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(9, 59, 161, 0.688);
+}
+
+.sign-up p {
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.log-in {
+    height: 25px;
+    width: 160px;
+    border: 2px solid grey;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(9, 59, 161, 0.688);
+}
+
+.featured {
+    height: 525px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.featured h4 {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.featured img {
+    padding-top: 25px;
+    padding-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.featured p {
+    margin-top: -22px;
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.featured p:hover {
+    cursor: pointer;
+}
+
+.featured a {
+    text-decoration: none;
+    color: black;
+}
+
+.featured-sports {
+    height: 200px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.featured-sports h4 {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.featured-sports a {
+    text-decoration: none;
+    color: black;
+}
+
+.featured-sports img {
+    padding-top: 22px;
+    padding-left: 10px;
+    height: 20px;
+    width: 22px;
+}
+
+.featured-sports p {
+    margin-top: -22px;
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.featured-sports p:hover {
+    cursor: pointer;
+}
+
+.follow-espn {
+    height: 150px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.follow-espn a {
+    text-decoration: none;
+    color: black;
+}
+
+.follow-espn h4 {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.follow-espn img {
+    height: 20px;
+    width: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.follow-espn p {
+    margin-top: -22px;
+    padding-left: 35px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.follow-espn p:hover {
+    cursor: pointer;
+}
+
+.quick-links {
+    height: 70px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.quick-links h4 {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.quick-links p {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.quick-links p:hover {
+    cursor: pointer;
+}
+
+.espn-sites {
+    height: 150px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.espn-sites h4 {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.espn-sites img {
+    height: 20px;
+    width: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.espn-sites a {
+    text-decoration: none;
+    color: black;
+}
+
+.espn-sites p {
+    margin-top: -20px;
+    padding-left: 33px;
+    font-size: 13px;
+}
+
+.miami-gp{
+    height: 50vh;
+    width: 45vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 394px;
+}
+
+.miami-gp img{
+    padding-top: 17px;
+    padding-left: 13px;
+}
+
+.miami-gp h4{
+    padding-left: 60px;
+    margin-top: -17px;
+}
+
+.img-card-mgp{
+    height: 38vh;
+    width: 40vw;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 38px
+}
+
+.img-card-mgp img{
+    height: 30vh;
+    width: 40vw;
+    margin-top: -17px;
+    margin-left: -13px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.mgp-headline{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.mgp-headline a{
+    text-decoration: none;
+    color: black;
+}
+
+.mgp-headline a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.time-2{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: grey;
+}

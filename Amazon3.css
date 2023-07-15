@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.items-card-3{
+    height: 65vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.electronic-devices-card{
+    height: 56vh;
+    width: 23vw;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.heading-electronic-devices-card{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.img-smartwatches-and-fitness-tracker{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.electronic-devices-card p{
+    font-size: 14px;
+}
+
+.img-tablets{
+    padding-left: 180px;
+    margin-top: -147px;
+}
+
+.img-laptops{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.img-monitors{
+    padding-left: 180px;
+    margin-top: -131px;
+}
+
+.see-more-new{
+    color: #007185;
+    padding-left: 17px;
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+.see-more-new:hover{
+    color: red;
+}
+
+.Womens-clothing-card{
+    height: 56vh;
+    width: 23vw;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.heading-Womens-clothing-card{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.img-womens-clothing{
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.Womens-clothing-card p{
+    font-size: 13px;
+    margin-left: -140px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.price-womens-clothing{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.price-womens-clothing-decimal{
+    font-size: 16px;
+    padding-left: 40px;
+    margin-top: -25px;
+}
+
+.MRP-womens-clothing{
+    padding-left: 60px;
+    margin-top: -10px;
+}
+
+.MRP-womens-clothing p{
+    padding-left: 190px;
+    margin-top: -18px;
+    text-decoration: line-through;
+}
+
+.small-img-womens-clothing-1{
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(183, 173, 173);
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.small-img-womens-clothing-1 img{
+    margin-left: 15px;
+}
+
+.small-img-womens-clothing-1:hover{
+    border: 4px solid #007185;
+}
+
+.small-img-womens-clothing-2{
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(183, 173, 173);
+    border-radius: 8px;
+    margin-left: 90px;
+    margin-top: -58px;
+}
+
+.small-img-womens-clothing-2 img{
+    margin-left: 18px;
+}
+
+.small-img-womens-clothing-2:hover{
+    border: 4px solid #007185;
+}
+
+.small-img-womens-clothing-3{
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(183, 173, 173);
+    border-radius: 8px;
+    margin-left: 160px;
+    margin-top: -58px;
+}
+
+.small-img-womens-clothing-3 img{
+    margin-left: 7px;
+}
+
+.small-img-womens-clothing-3:hover{
+    border: 4px solid #007185;
+}
+
+.small-img-womens-clothing-4{
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(183, 173, 173);
+    border-radius: 8px;
+    margin-left: 230px;
+    margin-top: -58px;
+}
+
+.small-img-womens-clothing-4 img{
+    margin-left: 15px;
+}
+
+.small-img-womens-clothing-4:hover{
+    border: 4px solid #007185;
+}
+
+.advert-miniTV{
+    height: 56vh;
+    width: 23vw;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.heading-advert-miniTV{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.img-advert-miniTV{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.watch-for-free{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.watch-for-free a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.watch-for-free a:hover{
+    color: red;
+}
+
+.birthday-store{
+    height: 56vh;
+    width: 23vw;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.heading-birthday-store{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.img-gift-for-men{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.img-gift-for-men p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-gift-for-women{
+    padding-left: 180px;
+    margin-top: -145px;
+}
+
+.img-gift-for-women p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-gift-for-boys{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.img-gift-for-boys p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-gift-for-girls{
+    padding-left: 180px;
+    margin-top: -145px;
+}
+
+.img-gift-for-girls p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}

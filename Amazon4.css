@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.back-to-top{
+    height: 5vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding-top: 15px;
+    background-color: #37475A;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us{
+    height: 50vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    /* margin-top: 5px; */
+    border-bottom: 2px solid rgb(117, 113, 113);
+    background-color: #232F3E;
+}
+
+.about-us p{
+    color: white;
+    padding-top: 10px;
+}
+
+.heading-get-to-know-us{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 350px;
+}
+
+.get-to-know-us p{
+    padding-left: 350px;
+}
+
+.heading-Connect-With-Us{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 580px;
+    margin-top: -136px;
+}
+
+.Connect-With-Us p{
+    padding-left: 580px;
+}
+
+.heading-make-money{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 780px;
+    margin-top: -109px;
+}
+
+.make-money p{
+    padding-left: 780px;
+}
+
+.heading-let-us-help{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 1080px;
+    margin-top: -251px;
+}
+
+.let-us-help p{
+    padding-left: 1080px;
+}
+
+.amazon-worldwide{
+    height: 20vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-color: #232F3E;
+}
+
+.amazon-logo-worldwide{
+    padding-top: 30px;
+    padding-left: 600px;
+}
+
+.select-language{
+    height: 30px;
+    width: 60px;
+    background-color: #232F3E;
+    border: 2px solid rgb(162, 158, 158);
+    margin-left: 795px;
+    margin-top: -50px;
+}
+
+.select-language p{
+    margin-left: -20px;
+    margin-top: 5px;
+}
+
+.countries{
+    display:flex;
+    align-items: center;
+    padding-left: 280px;
+}
+
+.countries p{
+    padding-top: 30px;
+    font-size: 14px;
+    color: white;
+    margin: auto;
+}

@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.amazon-header-2{
+    height: 5vh;
+    width: 100vw;
+    background-color: #232f3e;
+    color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.amazon-header-2 p{
+    margin-left: 15px;
+}
+
+@keyframes ad-slider {
+    0%{
+        transform: translate(0px);
+    }
+    15%{
+        transform: translateX(-1540px);
+    }
+    30%{
+        transform: translateX(-3080px);
+    }
+    45%{
+        transform: translateX(-4620px);
+    }
+    60%{
+        transform: translateX(-6160px);
+    }
+    80%{
+        transform: translateX(-7700px);
+    }
+    100%{
+        transform: translateX(-9240px);
+    }
+}
+
+.slider{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    border: hidden;
+    margin-top: 0px;
+    display: inline-flex;
+    /* animation: ad-slider 15s ease-out 2s 2 normal; */
+    position: relative;
+    z-index: -1;
+}
+
+.main-items-card-1{
+    height: 130vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin-top: -460px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Baby-essentials{
+    height: 60vh;
+    width: 23vw;
+    border: 2px solid black;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.heading-baby-essentials{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-Diapers{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.img-Diapers p{
+    font-size: 14px;
+}
+
+.img-soft-toys{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.img-soft-toys p{
+    font-size: 14px;
+}
+
+.img-indoor-games{
+    padding-left: 17px;
+    padding-top: 25px;
+}
+
+.img-indoor-games p{
+    font-size: 14px;
+}
+
+.img-outdoor{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.img-outdoor p{
+    font-size: 14px;
+}
+
+.see-more{
+    padding-left: 17px;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.Baby-essentials a{
+    text-decoration: none;
+}
+
+.medicines{
+    height: 60vh;
+    width: 24vw;
+    border: 2px solid black;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.heading-medicines{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-medicines{
+    padding-left: 17px;
+    padding-top: 25px;
+}
+
+.visit-store{
+    padding-left: 17px;
+    padding-top: 21px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.medicines a{
+    text-decoration: none;
+}
+
+.visit-store:hover{
+    color: red;
+}
+
+.monitor-blood-sugar{
+    height: 60vh;
+    width: 24vw;
+    border: 2px solid black;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.heading-monitor-blood-sugar{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-monitor-blood-sugar{
+    padding-left: 17px;
+    padding-top: 25px;
+}
+
+.styles-for-men{
+    height: 55vh;
+    width: 23vw;
+    border: 2px solid black;
+    margin-left: -73.5vw;
+    margin-top: 70vh;
+    background-color: white;
+}
+
+.heading-styles-for-men{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-Clothing{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.img-Clothing p{
+    font-size: 14px;
+}
+
+.img-Footwear{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.img-Footwear p{
+    font-size: 14px;
+}
+
+.img-watches{
+    padding-left: 17px;
+    margin-top: 20px;
+}
+
+.img-watches p{
+    font-size: 14px;
+}
+
+.img-Bags{
+    padding-left: 180px;
+    margin-top: -131px;
+}
+
+.img-Bags p{
+    font-size: 14px;
+}
+
+.mega-fashion-days{
+    padding-left: 17px;
+    padding-top: 30px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.styles-for-men a{
+    text-decoration: none;
+}
+
+.mega-fashion-days:hover{
+    color: red;
+}
+
+.img-clearence{
+    height: 55vh;
+    width: 24vw;
+    border: 2px solid black;
+    margin-left: 1vw;
+    margin-top: 70vh;
+    background-color: white;
+}
+
+.heading-img-clearence{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-clearence-electronics{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.see-more a{
+    color: #007185;
+}
+
+.img-clearence a{
+    text-decoration: none;
+}
+
+.img-clearence a:hover{
+    color: red;
+}
+
+.img-automobile-essentials{
+    height: 55vh;
+    width: 24vw;
+    border: 2px solid black;
+    margin-left: 1vw;
+    margin-top: 69.8vh;
+    background-color: white;
+}
+
+.heading-img-automobile-essentials{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-cleaning-accessories{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.img-cleaning-accessories p{
+    font-size: 14px;
+}
+
+.img-tyre-rim-care{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.img-tyre-rim-care p{
+    font-size: 14px;
+}
+
+.img-helmets{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.img-helmets p{
+    font-size: 14px;
+}
+
+.img-vaccum-cleaner{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.img-vaccum-cleaner p{
+    font-size: 14px;
+}
+
+.img-automobile-essentials a{
+    text-decoration: none;
+}
+
+.img-amazon-pay{
+    height: 55vh;
+    width: 22vw;
+    border: 2px solid black;
+    margin-left: 76vw;
+    margin-top: -58vh;
+    background-color: white;
+}
+
+.heading-img-amazon-pay{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.img-flight-tickets{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.img-flight-tickets p{
+    font-size: 12px;
+}
+
+.img-trains{
+    padding-left: 190px;
+    margin-top: -130px;
+}
+
+.img-trains p{
+    font-size: 12px;
+}
+
+.img-buses{
+    padding-left: 17px;
+    padding-top: 25px;
+}
+
+.img-buses p{
+    font-size: 11px;
+}
+
+.img-trolley{
+    padding-left: 183px;
+    margin-top: -130px;
+}
+
+.see-offers{
+    padding-left: 15px;
+    color: #007185;
+    font-size: 14px;
+}
+
+.sign-in{
+    height: 165px;
+    width: 330px;
+    border: 2px solid black;
+    margin-top: -925px;
+    margin-left: 1180px;
+    background-color: white;
+}
+
+.heading-sign-in{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 15px;
+}
+
+.sign-in-securely{
+    height: 20px;
+    width: 280px;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.advert{
+    margin-top: 70px;
+    margin-left: 25px;
+}

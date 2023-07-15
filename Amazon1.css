@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.amazon-header{
+    height: 8vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.amazon-header-img{
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    border: hidden;
+    padding-left: 10px;
+}
+
+.amazon-header-img:hover{
+    border: 2px solid white;
+}
+
+.select-your-address{
+    height: 40px;
+    width: 170px;
+    border: 2px solid white;
+    border: hidden;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+
+.select-your-address:hover{
+    border: 2px solid white;
+}
+
+.hello{
+    color: white;
+    font-size: 14px;
+    padding-left: 21px;
+    position: relative;
+}
+
+.select-your-address img{
+    position: absolute;
+    z-index: 2;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.select-address{
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.search-in{
+    height: 40px;
+    width: 50px;
+    border: 2px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.search-in:hover{
+    border: 2px solid orange;
+}
+
+.search-bar{
+    height: 38px;
+    width: 670px;
+    margin-bottom: 5.7px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.search-icon{
+    height: 41px;
+    width: 35px;
+    background-color: orange;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.language{
+    height: 50px;
+    width: 85px;
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.language img{
+    position: absolute;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.select-language{
+    height: 50px;
+    width: 85px;
+    background-color: black;
+    color: white;
+    border: hidden;
+    padding-left: 45px;
+    font-weight: 700;
+}
+
+.language:hover{
+    border: 2px solid white;
+}
+
+.Accounts-and-Lists{
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid white; */
+    /* border: hidden; */
+    margin-top: -5px;
+}
+
+.hello-2{
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.Acnts-and-lists{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.Accounts-and-Lists:hover{
+    border: 2px solid white;
+}
+
+.Returns-and-Orders{
+    height: 50px;
+    width: 80px;
+    /* border: 2px solid white; */
+    margin-left: 3px;
+    margin-top: -5px;
+}
+
+.returns{
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.orders{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.Returns-and-Orders:hover{
+    border: 2px solid white;
+}
+
+.Cart{
+    height: 60px;
+    width: 80px;
+    /* border: 2px solid white; */
+    margin-bottom: 10px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.Cart img{
+    position: absolute;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.Cart p{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+.Cart:hover{
+    border: 2px solid white;
+}

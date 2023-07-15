@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-img-express-vpn{
+    border: 2px solid black;
+    position: relative;
+    border: hidden;
+}
+
+.background-img-express-vpn img{
+    height: 91vh;
+    width: 100vw;
+}
+
+.people-bg-img{
+    border: 2px solid black;
+    border: hidden;
+    position: relative;
+    z-index: 1;
+    width: 25vw;
+    height: 32vh;
+    margin-left: 36.5vw;
+    margin-top: -34vh;
+}
+
+.people-bg-img img{
+    height: 33vh;
+    width: 35vw;
+    margin-left: -5vw;
+}
+
+.heading-card{
+    height: 91vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    position: relative;
+    z-index: 2;
+    margin-top: -90vh;
+}
+
+.nav-bar{
+    height: 15vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    margin-top: 4px;
+}
+
+.nav-bar ul li{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-express-vpn{
+    height: 8vh;
+    width: 18vw;
+    border: 2px solid black;
+    margin-left: 60px;
+    margin-top: 23px;
+    border: hidden;
+}
+
+.logo-express-vpn img{
+    height: 23vh;
+    width: 18vw;
+    margin-top: -55px;
+    margin-left: -10px;
+}
+
+.options{
+    height: 5vh;
+    width: 55vw;
+    /* border: 2px solid black; */
+    margin-left: 30vw;
+    margin-top: -6vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.options ul li{
+    padding-left: 35px;
+}
+
+.options ul li:hover{
+    color: #0f866c;
+    cursor: pointer;
+}
+
+.logo-world{
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    margin-left: 76.3vw;
+    margin-top: -31px;
+    border: hidden;
+}
+
+.get-started{
+    height: 42px;
+    width: 150px;
+    border: 2px solid #0f866c;
+    border-radius: 14px;
+    margin-left: 86vw;
+    margin-top: -5.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: #0f866c;
+}
+
+.get-started:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.get-started p:hover{
+    color: black;
+}
+
+.heading-card-content{
+    height: 40vh;
+    width: 80vw;
+    /* border: 2px solid black; */
+    margin-left: 10vw;
+    margin-top: 5px;
+}
+
+.headline p{
+    font-size: 85px;
+    padding-left: 100px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.sub-headline p{
+    font-size: 25px;
+    padding-left: 350px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.get-express-vpn-box{
+    height: 55px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 14px;
+    border: hidden;
+    margin-left: 490px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f866c;
+}
+
+.get-express-vpn-box p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
+
+.get-express-vpn-box:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.get-express-vpn-box p:hover{
+    color: black;
+}
+
+.guarantee p{
+    padding-left: 505px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-content-card{
+    height: 220vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.secure-acccess-card{
+    height: 45vh;
+    width: 63vw;
+    /* border: 2px solid black; */
+    margin-left: 20vw;
+    /* margin-top: -80vh; */
+}
+
+.secure-acccess-card img{
+    margin-top: -5vh;
+}
+
+.main-line{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-top: -48vh;
+    margin-left: 30vw;
+}
+
+.sub-lines{
+    font-size: 18px;
+    margin-left: 30vw;
+    padding-top: 20px;
+}
+
+.get-express-vpn-box-secure-access{
+    height: 55px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 14px;
+    border: hidden;
+    margin-left: 460px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f866c;
+}
+
+.get-express-vpn-box-secure-access p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
+
+.get-express-vpn-box-secure-access:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.get-express-vpn-box-secure-access p:hover{
+    color: black;
+}
+
+.one-click-card{
+    height: 60vh;
+    width: 63vw;
+    /* border: 2px solid black; */
+    margin-left: 20vw;
+}
+
+.one-click-card img{
+    margin-left: 35vw;
+}
+
+.main-line-one-click-card{
+    height: 15vh;
+    width: 22vw;
+    /* border: 2px solid black; */
+    margin-top: -53vh;
+    margin-left: 10px;
+}
+
+.main-line-one-click-card p{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    /* margin-left: 30vw; */
+}
+
+.sub-line-one-click-card{
+    height: 20vh;
+    width: 30vw;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    margin-top: 3vh;
+}
+
+.sub-line-one-click-card p{
+    font-size: 18px;
+    /* margin-left: 30vw; */
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.use-on-any-device-card{
+    height: 60vh;
+    width: 63vw;
+    /* border: 2px solid black; */
+    margin-left: 20vw;
+}
+
+.main-line-use-on-any-device-card{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-top: -52vh;
+    margin-left: 30vw;
+}
+
+.sub-line-use-on-any-device-card{
+    font-size: 18px;
+    margin-left: 30vw;
+    padding-top: 30px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    margin-left: 29vw;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    width: 22vw;
+}
+
+.see-all-apps{
+    margin-left: 30vw;
+    padding-top: 20px;
+}
+
+.see-all-apps a{
+    font-size: 18px;
+    color: #0f866c;
+    text-decoration: none;
+}
+
+.get-express-vpn-box-use-on-any-device{
+    height: 55px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 14px;
+    border: hidden;
+    margin-left: 450px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f866c;
+}
+
+.get-express-vpn-box-use-on-any-device p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
+
+.get-express-vpn-box-use-on-any-device:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.get-express-vpn-box-use-on-any-device p:hover{
+    color: black;
+}
+
+.advantages-card{
+    height: 70vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.data-protection-card{
+    height: 45vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+}
+
+.data-protection-card img{
+    margin-left: 15px;
+}
+
+.main-line-data-protection-card p{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 7vw;
+}
+
+.sub-line-data-protection-card p{
+    font-size: 18px;
+    margin-left: 4vw;
+    margin-top: -3vh;
+    padding-top: 35px;
+}
+
+.work-seamlessly-card{
+    height: 45vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+}
+
+.work-seamlessly-card img{
+    margin-left: 15px;
+}
+
+.main-line-work-seamlessly-card{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 6vw;
+}
+
+.sub-line-work-seamlessly-card p{
+    font-size: 18px;
+    margin-left: 4vw;
+    margin-top: -3vh;
+    padding-top: 35px;
+}
+
+.quick-connectivity-card{
+    height: 45vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+}
+
+.quick-connectivity-card img{
+    margin-left: 38px;
+}
+
+.main-line-quick-connectivity-card{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 3vw;
+    padding-top: 3px;
+}
+
+.sub-line-quick-connectivity-card p{
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-top: -3vh;
+    padding-top: 55px;
+}
+
+/* .see-more-advantages{
+    margin-top: 5vh;
+} */
+
+.see-more-advantages a{
+    margin-left: 45vw;
+    color: #0f866c;
+    font-size: 17px;
+}
+
+.ultrafast-servers-card{
+    height: 90vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    background-color: #dae8e7
+}
+
+.heading-ultrafast-servers-card{
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+    margin-left: 30vw;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.ultrafast-servers-card img{
+    margin-top: 5vh;
+    margin-left: 23vw;
+}
+
+.see-full-list{
+    margin-top: 5vh;
+    margin-left: 40vw;
+}
+
+.see-full-list a{
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0f866c;
+}
